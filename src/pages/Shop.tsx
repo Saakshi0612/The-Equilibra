@@ -37,11 +37,7 @@ function Shop() {
       <Container maxWidth="lg" sx={{ py: { xs: 5, md: 8 } }}>
         <Grid container spacing={4}>
           {products.map((product) => (
-            <Grid
-              key={product.id}
-              size={{ xs: 12, sm: 6, md: 4 }}
-              sx={product.id === 7 ? { gridColumn: { md: '5 / 9' } } : undefined}
-            >
+            <Grid key={product.id} size={{ xs: 12, sm: 6, md: 4 }}>
               <ProductCard product={product} onBuyNow={setSelectedProduct} />
             </Grid>
           ))}
