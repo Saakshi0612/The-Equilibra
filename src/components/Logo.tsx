@@ -1,5 +1,5 @@
 import { Box, Typography } from '@mui/material';
-import logoImg from '../assets/Logo.jpg';
+import logoImg from '../assets/Logo1.jpg';
 
 interface LogoProps {
     compact?: boolean;

@@ -5,7 +5,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import LocalShippingOutlinedIcon from '@mui/icons-material/LocalShippingOutlined';
 import VerifiedOutlinedIcon from '@mui/icons-material/VerifiedOutlined';
 import SupportAgentOutlinedIcon from '@mui/icons-material/SupportAgentOutlined';
-import logoImg from '../assets/Logo.jpg';
+import logoImg from '../assets/Logo1.jpg';
 
 const rotatingWords = ['Balance', 'Precision', 'Kinetic Art', 'Equilibrium'];
 
